@@ -1,6 +1,4 @@
-def main():
-    print("Hello from crew-ai-news-reader-agent!")
+from crewai import Crew, Agent, Task
+from dotenv import load_dotenv
 
-
-if __name__ == "__main__":
-    main()
+load_dotenv()
